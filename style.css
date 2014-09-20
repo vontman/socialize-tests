@@ -2,8 +2,12 @@
                 /*font-family: 'Open Sans', sans-serif;*/
                 /*background:teal;*/
                 /*background:#5683b8;*/
-                background:rgb(22, 100, 111);
+                /*background:rgb(22, 100, 111);*/
+                /*background-image: url("texture5.jpg");*/
+                /*background: whitesmoke;*/
+                background:rgb(202, 223, 243);  
                 margin:0;
+                padding:0;
             }
             #left_notifications{
                 position:fixed;
@@ -16,7 +20,8 @@
                 overflow-x: hidden;
                 overflow-y: auto;
                 position:fixed;
-                background: rgba(0,0,0,.25);
+                /*background: rgba(0,0,0,.15);*/
+                background:rgb(156, 180, 202);
                 width:0px;
                 height:100%;
                 transition:all 1.2s ease;
@@ -44,7 +49,8 @@
                 font-size: 16px;
                 font-weight: bold;
                 /*background:#3F6072;*/
-                background: rgba(0,0,0,.25);
+                background: rgba(0,0,0,.15);
+                /*background:#6aace2;*/
                 text-align: left;
                 transition: all .6s ease;
                 word-wrap: break-word;

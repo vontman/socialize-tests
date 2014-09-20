@@ -42,6 +42,7 @@
             });
         </script>
         <link type='text/css' rel='stylesheet' href='style.css'/>
+        <link type='text/css' rel='stylesheet' href='sidebar.css'/>
         <link type='text/css' rel='stylesheet' href='wrapper.css'/>
         <link type='text/css' rel='stylesheet' href='js/js/jquery-ui.css'/>
         <link type='text/css' rel='stylesheet' href='js/jquery-ui.min.css'/>
@@ -51,6 +52,9 @@
         
     </head>
     <body>
+        <?php
+            include_once './sidebar.php';   
+        ?>
         <div id="left_notifications">
 
             <div class="slider leftslider">
@@ -127,7 +131,39 @@
             <input type='checkbox' name='agreement'><label>I agree</label>
         </div>-->
         <div id="wrapper">
-            
+            <div class="post_whole">
+                <div class="post">
+                    <div class="post_info">
+                        <div class="writer_pic">
+                            <img src="user.png"/>
+                        </div>
+                        <div class="writer">
+                            admin
+                        </div>
+                        <div class="post_date">
+                            5 hours ago
+                        </div>
+                    </div>
+                    <div class="post_body">
+                        In spite off all the answers you already received, it is worth noting that you do not need to write a plugin to use jQuery in a function. Certainly if it's a simple, one-time function, I believe writing a plugin is overkill. It could be done much easier by just passing the selector to the function as a parameter. Your code would look something 
+                    </div>
+                    <div class="post_functions">
+                        <img src="png/thumbs23.png"/>23 
+                        <a href="" >Comment</a>
+                    </div>
+                </div>
+                <div class="post_comment">
+                    <div class="comment_info">
+                        
+                    </div>
+                    <div class="comment_body">
+                        
+                    </div>
+                    <div class="comment_functions">
+                        
+                    </div>
+                </div>
+            </div>
         </div>
         <?php
         // put your code here
